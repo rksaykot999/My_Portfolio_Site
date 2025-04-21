@@ -1,25 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <header>
+<body class="open-sans-normal">
+
+    <header class="header secondery-bg">
         <nav>
-
+            <h3 class="nav-title dark-2">Ma<span class="text-primary">r</span>y</h3>
+            <ul>
+                <li><a class="dark-2" href="#">Portfolio</a></li>
+                <li><a class="dark-2" href="#">Blog</a></li>
+                <li><a class="dark-2" href="#"><button class="btn-primary">Hire Me</button></a></li>
+            </ul>
         </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-gretings dark-2">Hi, Iam</h4>
+                <h1 class="banner-title">Mary hardy</h1>
+                <p class="banner-description">
+                    Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society
+                    behaved moments.
+                </p>
+                <ul class="banner-btns">
+                    <li><button class="btn-primary">Download CV</button></li>
+                    <li><button class="btn-primary">Contact</button></li>
+                </ul>
+            </div>
+            <img class="banner-profile-picture" src="images/hardy.png" alt="">
+        </div>
     </header>
 
     <main>
+        <!-- About Section -->
+        <section class="about-section secondery-bg">
+            <div class="about_me">
+                <h1 class="about-title dark-1">About Me</h1>
+                <p class="about-description dark-3">I, m a designer & developer with a passion for web design. I enjoy
+                    developing simple, clean and slick websites that provide real value to the end user. Thousands of
+                    clients have procured exceptional resulfs while working with me. Delivering work within time and
+                    budget which meets clients requirements in our mata.</p>
+                <div class="about-items">
+                    <div class="about-item">
+                        <p class="item-title">Name:</p>
+                        <p class="item-description">Mary</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">Email:</p>
+                        <p class="item-description">info@gmail.com</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">Date of Birth</p>
+                        <p class="item-description">11 November 1987</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">From</p>
+                        <p class="item-description">Los Angeles, USA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- What I Do Section -->
+        <section class="what-i-do-section">
+            <h1 class="what-i-do-title dark-1">What I Do</h1>
+            <p class="what-i-do-description dark-3">I have more than 10 years experience building software for clients
+                all over the world. Below is a quick overview of my main technical skill sets and technologies i use.
+                Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section">
+            <div class="skill">
+                <img src="images/icons/js.png" alt="">
+                <h4>Vanila JavaScript</h4>
+                <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free
+                    icons available. Aenean commodo ligula eget dolor.</p>
+            </div>
+            <div class="skill">
+                <img src="images/icons/react.png" alt="">
+                <h4>React</h4>
+                <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free
+                    icons available. Aenean commodo ligula eget dolor.</p>
+            </div>
+            <div class="skill">
+                <img src="images/icons/nodejs.png" alt="">
+                <h4>Node.js</h4>
+                <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free
+                    icons available. Aenean commodo ligula eget dolor.</p>
+            </div>
+            <div class="skill">
+                <img src="images/icons/mongo.png" alt="">
+                <h4>MongoDB</h4>
+                <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free
+                    icons available. Aenean commodo ligula eget dolor.</p>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section class="resume-section">
+            <h2>A summary of My Resume</h2>
+            <div class="resume-continar">
+                <div class="resume-colom">
+                    <h3 class="resume-title dark-2 bold">My Education</h3>
+                    <div class="exprience">
+                        <h4 class="exprience-title dark-2">Master in Computer Engineering</h4>
+                        <h5 class="exprience-sub-title dark-3">Havard University / 2015 - 2017</h5>
+                        <p class="exprience-description dark-3">List skill/technologies here. You can change the icon
+                            above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="exprience">
+                        <h4 class="exprience-title dark-2 bold">Master in Computer Engineering</h4>
+                        <h5 class="exprience-sub-title dark-3">Harvard University / 2015 - 2017</h5>
+                        <p class="exprience-description dark-3">List skill/technologies here. You can change the icon
+                            above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="exprience">
+                        <h4 class="exprience-title dark-2 bold">Master in Computer Engineering</h4>
+                        <h5 class="exprience-sub-title dark-3">Harvard University / 2015 - 2017</h5>
+                        <p class="exprience-description dark-3">List skill/technologies here. You can change the icon
+                            above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                </div>
+                <div class="resume-colom">
+                    <h3 class="resume-title dark-2 bold">My Exprience</h3>
+                    <div class="exprience">
+                        <h4 class="exprience-title dark-2 bold">Sr. Font End Developer</h4>
+                        <h5 class="exprience-sub-title dark-3">Apple Inc / 2020 - Current</h5>
+                        <p class="exprience-description dark-3">List skill/technologies here. You can change the icon
+                            above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="exprience">
+                        <h4 class="exprience-title dark-2 bold">Jr. Font End Developer</h4>
+                        <h5 class="exprience-sub-title dark-3">Dribbble Inc / 2018 - 2022</h5>
+                        <p class="exprience-description dark-3">List skill/technologies here. You can change the icon
+                            above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="exprience">
+                        <h4 class="exprience-title dark-2 bold">HTML Developer</h4>
+                        <h5 class="exprience-sub-title dark-3">Adobe Inc / 2017 - 2018</h5>
+                        <p class="exprience-description dark-3">List skill/technologies here. You can change the icon
+                            above
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 50px;">
+                <button class="btn-primary">Download CV</button>
+            </div>
+        </section>
     </main>
 
     <footer>
+        <div class="footer-section secondery-bg">
+            <div class="footer-left">
+                <h4 class="footer-title">Let's Connect</h4>
+                <p class="footer-description dark-2">Please fill out the form on this section to contact with me or call
+                    between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <img src="images/icons/facebook.png" alt="">
+                <img src="images/icons/twitter.png" alt="">
+                <img src="images/icons/insta.png" alt="">
+            </div>
+
+            <div class="footer-right">
+                <h4 class="footer-title dark-1">Let's Massage</h4>
+                <input type="text" placeholder="Your Name">
+
+                <input type="text" placeholder="Your Email">
+
+                <textarea name="" id="" placeholder="Your massage"></textarea>
+                
+                <button class="btn-primary " type="submit">Submit</button>
+            </div>
+        </div>
 
     </footer>
 
 </body>
+
 </html>
