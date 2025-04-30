@@ -244,7 +244,7 @@ footer input[type="text"],footer input[type="email"],footer textarea {
         margin: 20px;
     }
     .banner-profile-picture{
-        width: 100%;
+        max-width: 100%;
         height: auto;
     }
     .header{
